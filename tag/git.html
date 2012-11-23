@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>mert99's Blog - thats</title>
+    <title>mert99's Blog - git</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="mert99">
@@ -71,12 +71,6 @@
               
               
                   <li >
-                    <a href=".././category/c.html">
-						<i class="icon-folder-open icon-large"></i>C
-					</a>
-                  </li>
-              
-                  <li >
                     <a href=".././category/misc.html">
 						<i class="icon-folder-open icon-large"></i>misc
 					</a>
@@ -101,43 +95,11 @@
 
         
         <div class="article">
-                <h1><a href=".././my-super-title.html">My super title</a></h1>
+                <h1><a href=".././pelicanbo-ke.html">pelican博客</a></h1>
                 <div class="well small"><footer class="post-info">
 <span class="label">Date</span>
-<abbr class="published" title="2012-11-23T12:43:02.664646">
-        <i class="icon-calendar"></i>五 23 十一月 2012
-</abbr>
-
-<span class="label">By</span>
-<a href=".././author/mert99.html"><i class="icon-user"></i>mert99</a>
-
-<span class="label">Category</span>
-<a href=".././category/c.html"><i class="icon-folder-open"></i>C</a>.
-
-
-
-
-<span class="label">Tags</span>
-
-	<a href=".././tag/thats.html"><i class="icon-tag"></i>thats</a>
-
-	<a href=".././tag/awesome.html"><i class="icon-tag"></i>awesome</a>
-
-
-
-</footer><!-- /.post-info --></div>
-                <div class="summary"><p>测试类别</p>
-                        <a class="btn primary xsmall" href=".././my-super-title.html">more ...</a>
-                </div>
-        </div>
-        <hr />
-        
-        <div class="article">
-                <h1><a href=".././my-super-post.html">My super title</a></h1>
-                <div class="well small"><footer class="post-info">
-<span class="label">Date</span>
-<abbr class="published" title="2012-11-22T00:00:00">
-        <i class="icon-calendar"></i>四 22 十一月 2012
+<abbr class="published" title="2012-11-23T00:00:00">
+        <i class="icon-calendar"></i>2012-11-23
 </abbr>
 
 <span class="label">By</span>
@@ -151,15 +113,37 @@
 
 <span class="label">Tags</span>
 
-	<a href=".././tag/thats.html"><i class="icon-tag"></i>thats</a>
+	<a href=".././tag/pelican.html"><i class="icon-tag"></i>pelican</a>
 
-	<a href=".././tag/awesome.html"><i class="icon-tag"></i>awesome</a>
+	<a href=".././tag/git.html"><i class="icon-tag"></i>git</a>
 
 
 
 </footer><!-- /.post-info --></div>
-                <div class="summary"><p>This is the content of my super blog post.</p>
-                        <a class="btn primary xsmall" href=".././my-super-post.html">more ...</a>
+                <div class="summary"><p><a href="http://pelican.readthedocs.org/en/latest/">pelican</a>是个用python做的静态网站生成器。把生成好的东西挂到github上就得到了这个博客。</p>
+<h2>首先</h2>
+<p>注册一个<a href="https://github.com/">github</a>帐号，比如abc。创建名为abc.github.com的仓库。</p>
+<h2>其次</h2>
+<p>安装pelican。</p>
+<div class="codehilite"><pre><span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">install</span> <span class="n">python</span><span class="o">-</span><span class="n">pip</span>
+<span class="n">sudo</span> <span class="n">pip</span> <span class="n">install</span> <span class="n">pelican</span>
+</pre></div>
+
+
+<p>可以用<a href="http://wowubuntu.com/markdown/">markdown</a>或者<a href="https://beinggeekbook.readthedocs.org/en/latest/rst.html">rst</a>来编辑文章,pelican默认支持rst,如要用markdown：</p>
+<div class="codehilite"><pre><span class="n">sudo</span> <span class="n">pip</span> <span class="n">install</span> <span class="n">Markdown</span>
+</pre></div>
+
+
+<h2>然后</h2>
+<p>创建和你的仓库同名的目录，比如abc.github.com。</p>
+<div class="codehilite"><pre><span class="n">mkdir</span> <span class="o">~/</span><span class="n">abc</span><span class="p">.</span><span class="n">github</span><span class="p">.</span><span class="n">com</span>
+</pre></div>
+
+
+<p>进入目录，编辑配置文件settings.py。</p>
+<div class="codehilite"><pre><span class="n">cd</span> <span class="o">~/</span><span class="n">abc</span><span class="p">.</span><span class="n">github</span><span class="p">.</span><span class="n">com ...</span></pre></div>
+                        <a class="btn primary xsmall" href=".././pelicanbo-ke.html">more ...</a>
                 </div>
         </div>
         <hr />
@@ -194,12 +178,6 @@
 <li class="nav-header"><h4><i class="icon-folder-close icon-large"></i>Categories</h4></li>
 
 <li>
-<a href=".././category/c.html">
-    <i class="icon-folder-open icon-large"></i>C
-</a>
-</li>
-
-<li>
 <a href=".././category/misc.html">
     <i class="icon-folder-open icon-large"></i>misc
 </a>
@@ -208,15 +186,15 @@
 
 <li class="nav-header"><h4><i class="icon-tags icon-large"></i>Tags</h4></li>
 
-<li class="tag-1">
-    <a href=".././tag/thats.html">
-        <i class="icon-tag icon-large"></i>thats
+<li class="tag-4">
+    <a href=".././tag/pelican.html">
+        <i class="icon-tag icon-large"></i>pelican
     </a>
 </li>
 
-<li class="tag-1">
-    <a href=".././tag/awesome.html">
-        <i class="icon-tag icon-large"></i>awesome
+<li class="tag-4">
+    <a href=".././tag/git.html">
+        <i class="icon-tag icon-large"></i>git
     </a>
 </li>
 
@@ -246,16 +224,6 @@
 
 
     
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-try {
-	var pageTracker = _gat._getTracker("UA-30756331-1");
-pageTracker._trackPageview();
-} catch(err) {}</script>
-
     
     
 <script type="text/javascript">

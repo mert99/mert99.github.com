@@ -5,13 +5,16 @@ TIMEZONE = 'Asia/Shanghai'
 
 DEFAULT_LANG = 'zhs'
 
+DATE_FORMATS = {
+        'zhs' :( (u'zh_CN','utf8'), u'%Y-%m-%d',)
+}
+
 SITENAME = "mert99's Blog"
 AUTHOR = 'mert99'
 
 DISQUS_SITENAME = 'mert99sblog'
 GITHUB_URL = '<https://github.com/mert99>'#github链接
 SITEURL = '<http://mert99.github.com>'
-GOOGLE_ANALYTICS = 'UA-30756331-1'#谷歌站点分析
 TAG_FEED  = 'feeds/%s.atom.xml'
 
 DEFAULT_PAGINATION = 4#默认每一页有多少篇文章
