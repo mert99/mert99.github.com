@@ -14,7 +14,7 @@ AUTHOR = 'mert99'
 
 DISQUS_SITENAME = 'mert99sblog'
 GITHUB_URL = 'https://github.com/mert99'
-SITEURL = '<http://mert99.github.com>'
+SITEURL = 'http://mert99.github.com'
 TAG_FEED_ATOM = 'feeds/%s.atom.xml'
 
 SOCIAL = (('github', 'https://github.com/mert99'), 

@@ -1,5 +1,5 @@
 Title: pelican博客
-Date: 2012-11-23
+Date: 2012-11-26
 Tags: pelican, git
 
 [pelican][1]是个用python做的静态网站生成器。把生成好的东西挂到github上就得到了这个博客。
@@ -48,7 +48,7 @@ Tags: pelican, git
 
     DISQUS_SITENAME = 'mert99sblog'
     GITHUB_URL = 'https://github.com/mert99'
-    SITEURL = '<http://mert99.github.com>'
+    SITEURL = 'http://mert99.github.com'
     TAG_FEED_ATOM = 'feeds/%s.atom.xml'
 
     SOCIAL = (('github', 'https://github.com/mert99'), 
