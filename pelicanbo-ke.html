@@ -164,51 +164,29 @@
 
 <span class="n">TIMEZONE</span> <span class="p">=</span> <span class="s">&#39;Asia/Shanghai&#39;</span>
 
-<span class="n">DEFAULT_LANG</span> <span class="p">=</span> <span class="s">&#39;zhs&#39;</span>
-
 <span class="n">DATE_FORMATS</span> <span class="p">=</span> <span class="p">{</span>
         <span class="s">&#39;zhs&#39;</span> <span class="p">:(</span> <span class="p">(</span><span class="n">u</span><span class="o">&#39;</span><span class="n">zh_CN</span><span class="o">&#39;</span><span class="p">,</span><span class="s">&#39;utf8&#39;</span><span class="p">),</span> <span class="n">u</span><span class="o">&#39;</span><span class="c">%Y-%m-%d&#39;,)</span>
 <span class="p">}</span>
+
+<span class="n">DEFAULT_LANG</span> <span class="p">=</span> <span class="s">&#39;zhs&#39;</span>
 
 <span class="n">SITENAME</span> <span class="p">=</span> <span class="s">&quot;mert99&#39;s Blog&quot;</span>
 <span class="n">AUTHOR</span> <span class="p">=</span> <span class="s">&#39;mert99&#39;</span>
 
 <span class="n">DISQUS_SITENAME</span> <span class="p">=</span> <span class="s">&#39;mert99sblog&#39;</span>
-<span class="n">GITHUB_URL</span> <span class="p">=</span> <span class="s">&#39;&lt;https://github.com/mert99&gt;&#39;</span><span class="c">#github链接</span>
+<span class="n">GITHUB_URL</span> <span class="p">=</span> <span class="s">&#39;https://github.com/mert99&#39;</span>
 <span class="n">SITEURL</span> <span class="p">=</span> <span class="s">&#39;&lt;http://mert99.github.com&gt;&#39;</span>
-<span class="n">TAG_FEED</span>  <span class="p">=</span> <span class="s">&#39;feeds/%s.atom.xml&#39;</span>
+<span class="n">TAG_FEED_ATOM</span> <span class="p">=</span> <span class="s">&#39;feeds/%s.atom.xml&#39;</span>
 
-<span class="n">DEFAULT_PAGINATION</span> <span class="p">=</span> 4<span class="c">#默认每一页有多少篇文章</span>
+<span class="n">SOCIAL</span> <span class="p">=</span> <span class="p">((</span><span class="s">&#39;github&#39;</span><span class="p">,</span> <span class="s">&#39;https://github.com/mert99&#39;</span><span class="p">),</span> 
+         <span class="p">)</span>
 
+<span class="n">THEME</span><span class="p">=</span><span class="s">&#39;bootstrap2&#39;</span>
+
+<span class="n">DEFAULT_PAGINATION</span> <span class="p">=</span> 4
 <span class="n">DEFAULT_CATEGORY</span> <span class="p">=</span><span class="s">&#39;misc&#39;</span>
 <span class="n">OUTPUT_PATH</span> <span class="p">=</span> <span class="s">&#39;.&#39;</span>
-<span class="c">#需要把输出路径从默认的&#39;output&#39;改成根目录(your_id.github.com目录), 因为githubpage需要把index.html上传到repo的master分支的根目录才可以!</span>
-<span class="n">PATH</span> <span class="p">=</span> <span class="s">&#39;posts&#39;</span><span class="c">#这个是指定放置.md/.rst文件的目录</span>
-
-<span class="n">LINKS</span> <span class="p">=</span> <span class="p">((</span><span class="s">&#39;x-wei&#39;</span><span class="p">,</span> <span class="s">&#39;&lt;http://x-wei.github.com&gt;&#39;</span><span class="p">),</span>
-         <span class="p">(</span><span class="s">&#39;farseerfc&#39;</span><span class="p">,</span> <span class="s">&quot;&lt;http://farseerfc.github.com/&gt;&quot;</span><span class="p">),</span>
-         <span class="p">)</span><span class="c">#友情链接~</span>
-
-<span class="n">SOCIAL</span> <span class="p">=</span> <span class="p">(</span>
-          <span class="p">(</span><span class="s">&#39;github&#39;</span><span class="p">,</span> <span class="s">&#39;&lt;https://github.com/mert99&gt;&#39;</span><span class="p">),</span>
-          <span class="p">)</span><span class="c">#社交网络链接</span>
-          <span class="c">#~ (&#39;twitter&#39;, &#39;&lt;http://twitter.com/farseerfc&gt;&#39;),</span>
-          <span class="c">#~ (&#39;facebook&#39;, &#39;&lt;http://www.facebook.com/farseerfc&gt;&#39;),</span>
-          <span class="c">#~ (&#39;weibo&#39;, &#39;&lt;http://weibo.com/farseerfc&gt;&#39;),</span>
-          <span class="c">#~ (&#39;renren&#39;, &#39;&lt;http://www.renren.com/farseer&gt;&#39;),</span>
-
-<span class="c">#这个是farseerfc同学自己加的, 可以显示他的新浪微博内容, 有微博的话可以把这些加上~</span>
-<span class="c">#~ TWITTER_USERNAME = &#39;farseerfc&#39;</span>
-<span class="c">#~ SIDEBAR_CUSTOM = r&quot;&quot;&quot;</span>
-<span class="c">#~ &lt;li class=&quot;nav-header&quot;&gt;&lt;h4&gt;&lt;i class=&quot;icon-list-alt&quot;&gt;&lt;/i&gt;Weibo&lt;/h4&gt;&lt;/li&gt;</span>
-<span class="c">#~ &lt;iframe width=&quot;100%&quot; height=&quot;550&quot; class=&quot;share_self&quot;  frameborder=&quot;0&quot; scrolling=&quot;no&quot; </span>
-<span class="c">#~ src=&quot;&lt;http://widget.weibo.com/weiboshow/index.php?language=&amp;width=0&amp;height=550&amp;fansRow=1&amp;ptype=1&amp;speed=0&amp;skin=2&amp;isTitle=1&amp;noborder=1&amp;isWeibo=1&amp;isFans=1&amp;uid=1862842353&amp;verifier=b193b9de&amp;dpc=1&gt;&quot;&gt;</span>
-<span class="c">#~ &lt;/iframe&gt;</span>
-<span class="c">#~ &quot;&quot;&quot;</span>
-
-<span class="c">#google自定义搜索(大概是站内搜索吧)</span>
-<span class="c">#~ GOOGLE_CUSTOM_SEARCH_SIDEBAR = &quot;001578481551708017171:axpo6yvtdyg&quot;</span>
-<span class="c">#~ GOOGLE_CUSTOM_SEARCH_NAVBAR = &quot;001578481551708017171:hxkva69brmg&quot;</span>
+<span class="n">PATH</span> <span class="p">=</span> <span class="s">&#39;posts&#39;</span>
 </pre></div>
 
 
@@ -289,14 +267,14 @@
 <li class="nav-header"><h4><i class="icon-tags icon-large"></i>Tags</h4></li>
 
 <li class="tag-4">
-    <a href="./tag/git.html">
-        <i class="icon-tag icon-large"></i>git
+    <a href="./tag/pelican.html">
+        <i class="icon-tag icon-large"></i>pelican
     </a>
 </li>
 
 <li class="tag-4">
-    <a href="./tag/pelican.html">
-        <i class="icon-tag icon-large"></i>pelican
+    <a href="./tag/git.html">
+        <i class="icon-tag icon-large"></i>git
     </a>
 </li>
 
