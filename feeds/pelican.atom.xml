@@ -44,7 +44,10 @@
 &lt;span class="n"&gt;DISQUS_SITENAME&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;mert99sblog&amp;#39;&lt;/span&gt;
 &lt;span class="n"&gt;GITHUB_URL&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;https://github.com/mert99&amp;#39;&lt;/span&gt;
 &lt;span class="n"&gt;SITEURL&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;http://mert99.github.com&amp;#39;&lt;/span&gt;
+&lt;span class="n"&gt;FEED_ATOM&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;feeds/all.atom.xml&amp;#39;&lt;/span&gt;
+&lt;span class="n"&gt;FEED_RSS&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;feeds/all.rss.xml&amp;#39;&lt;/span&gt;
 &lt;span class="n"&gt;TAG_FEED_ATOM&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;feeds/%s.atom.xml&amp;#39;&lt;/span&gt;
+&lt;span class="n"&gt;TAG_FEED_RSS&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;feeds/%s.rss.xml&amp;#39;&lt;/span&gt;
 
 &lt;span class="n"&gt;SOCIAL&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;github&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;https://github.com/mert99&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; 
          &lt;span class="p"&gt;)&lt;/span&gt;
