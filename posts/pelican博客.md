@@ -61,10 +61,11 @@ Tags: pelican, git
     OUTPUT_PATH = '.'
     PATH = 'posts'
 
-这里用的是bootstrap2主题，可以这样获取:
+这里用的是bootstrap2主题，安装:
 
     cd ~/abc.github.com
     git clone https://github.com/getpelican/pelican-themes
+    sudo pelican-themes -i pelican-themes/bootstrap2
 
 创建文件夹~/abc.github.com/posts，编辑要发表的博文:
 
@@ -72,10 +73,10 @@ Tags: pelican, git
     cd posts
     vim xxx.md
 
-用pelican生成：
+生成博客:
 
     cd ~/abc.github.com
-    pelican -s ~/abc.github.com/settings.py -t ~/abc.github.com/pelican-themes/bootstrap2
+    pelican -s settings.py
 
 最后
 -------------

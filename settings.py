@@ -23,6 +23,6 @@ SOCIAL = (('github', 'https://github.com/mert99'),
 THEME='bootstrap2'
 
 DEFAULT_PAGINATION = 4
-DEFAULT_CATEGORY ='MISC'
+DEFAULT_CATEGORY ='misc'
 OUTPUT_PATH = '.'
 PATH = 'posts'

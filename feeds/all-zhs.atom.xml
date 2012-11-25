@@ -58,9 +58,10 @@
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;这里用的是bootstrap2主题，可以这样获取:&lt;/p&gt;
+&lt;p&gt;这里用的是bootstrap2主题，安装:&lt;/p&gt;
 &lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span class="n"&gt;cd&lt;/span&gt; &lt;span class="o"&gt;~/&lt;/span&gt;&lt;span class="n"&gt;abc&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;github&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;
 &lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;clone&lt;/span&gt; &lt;span class="n"&gt;https&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="o"&gt;//&lt;/span&gt;&lt;span class="n"&gt;github&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;getpelican&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;pelican&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;themes&lt;/span&gt;
+&lt;span class="n"&gt;sudo&lt;/span&gt; &lt;span class="n"&gt;pelican&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;themes&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nb"&gt;i&lt;/span&gt; &lt;span class="n"&gt;pelican&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;themes&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;bootstrap2&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -71,9 +72,9 @@
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;用pelican生成：&lt;/p&gt;
+&lt;p&gt;生成博客:&lt;/p&gt;
 &lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span class="n"&gt;cd&lt;/span&gt; &lt;span class="o"&gt;~/&lt;/span&gt;&lt;span class="n"&gt;abc&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;github&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;
-&lt;span class="n"&gt;pelican&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt; &lt;span class="o"&gt;~/&lt;/span&gt;&lt;span class="n"&gt;abc&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;github&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;settings&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;py&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;t&lt;/span&gt; &lt;span class="o"&gt;~/&lt;/span&gt;&lt;span class="n"&gt;abc&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;github&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;pelican&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;themes&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;bootstrap2&lt;/span&gt;
+&lt;span class="n"&gt;pelican&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt; &lt;span class="n"&gt;settings&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;py&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
