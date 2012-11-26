@@ -31,7 +31,6 @@
 &lt;span class="n"&gt;import&lt;/span&gt; &lt;span class="n"&gt;sys&lt;/span&gt;
 
 &lt;span class="n"&gt;TIMEZONE&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;Asia/Shanghai&amp;#39;&lt;/span&gt;
-
 &lt;span class="n"&gt;DATE_FORMATS&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
         &lt;span class="s"&gt;&amp;#39;zhs&amp;#39;&lt;/span&gt; &lt;span class="p"&gt;:(&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;u&lt;/span&gt;&lt;span class="o"&gt;&amp;#39;&lt;/span&gt;&lt;span class="n"&gt;zh_CN&lt;/span&gt;&lt;span class="o"&gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;utf8&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="n"&gt;u&lt;/span&gt;&lt;span class="o"&gt;&amp;#39;&lt;/span&gt;&lt;span class="c"&gt;%Y-%m-%d&amp;#39;,)&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
@@ -39,32 +38,29 @@
 &lt;span class="n"&gt;DEFAULT_LANG&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;zhs&amp;#39;&lt;/span&gt;
 
 &lt;span class="n"&gt;SITENAME&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;mert99&amp;#39;s Blog&amp;quot;&lt;/span&gt;
-&lt;span class="n"&gt;AUTHOR&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;mert99&amp;#39;&lt;/span&gt;
-
-&lt;span class="n"&gt;DISQUS_SITENAME&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;mert99sblog&amp;#39;&lt;/span&gt;
-&lt;span class="n"&gt;GITHUB_URL&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;https://github.com/mert99&amp;#39;&lt;/span&gt;
 &lt;span class="n"&gt;SITEURL&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;http://mert99.github.com&amp;#39;&lt;/span&gt;
-&lt;span class="n"&gt;FEED_ATOM&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;feeds/all.atom.xml&amp;#39;&lt;/span&gt;
-&lt;span class="n"&gt;FEED_RSS&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;feeds/all.rss.xml&amp;#39;&lt;/span&gt;
-&lt;span class="n"&gt;TAG_FEED_ATOM&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;feeds/%s.atom.xml&amp;#39;&lt;/span&gt;
-&lt;span class="n"&gt;TAG_FEED_RSS&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;feeds/%s.rss.xml&amp;#39;&lt;/span&gt;
+&lt;span class="n"&gt;AUTHOR&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;mert99&amp;#39;&lt;/span&gt;
+&lt;span class="n"&gt;DISQUS_SITENAME&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;mert99sblog&amp;#39;&lt;/span&gt;
 
-&lt;span class="n"&gt;SOCIAL&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;github&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;https://github.com/mert99&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; 
-         &lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;THEME&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;pelican-chunk&amp;#39;&lt;/span&gt;
 
-&lt;span class="n"&gt;THEME&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;bootstrap2&amp;#39;&lt;/span&gt;
-
-&lt;span class="n"&gt;DEFAULT_PAGINATION&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; 4
+&lt;span class="c"&gt;#DEFAULT_PAGINATION = 4&lt;/span&gt;
 &lt;span class="n"&gt;DEFAULT_CATEGORY&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;misc&amp;#39;&lt;/span&gt;
 &lt;span class="n"&gt;OUTPUT_PATH&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;.&amp;#39;&lt;/span&gt;
 &lt;span class="n"&gt;PATH&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;posts&amp;#39;&lt;/span&gt;
+
+&lt;span class="c"&gt;# settings used by the pelican-chunk theme&lt;/span&gt;
+&lt;span class="n"&gt;SITESUBTITLE&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;A pelican blog with the pelican-chunk theme.&amp;#39;&lt;/span&gt;
+&lt;span class="c"&gt;#DISPLAY_CATEGORIES_ON_MENU = True&lt;/span&gt;
+&lt;span class="n"&gt;LINKS&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;github&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;https://github.com/mert99&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;),)&lt;/span&gt;
+&lt;span class="n"&gt;SINGLE_AUTHOR&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="n"&gt;True&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;这里用的是bootstrap2主题，安装:&lt;/p&gt;
+&lt;p&gt;pelican-chunk主题安装:&lt;/p&gt;
 &lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span class="n"&gt;cd&lt;/span&gt; &lt;span class="o"&gt;~/&lt;/span&gt;&lt;span class="n"&gt;abc&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;github&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;
-&lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;clone&lt;/span&gt; &lt;span class="n"&gt;https&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="o"&gt;//&lt;/span&gt;&lt;span class="n"&gt;github&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;getpelican&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;pelican&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;themes&lt;/span&gt;
-&lt;span class="n"&gt;sudo&lt;/span&gt; &lt;span class="n"&gt;pelican&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;themes&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nb"&gt;i&lt;/span&gt; &lt;span class="n"&gt;pelican&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;themes&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;bootstrap2&lt;/span&gt;
+&lt;span class="n"&gt;git&lt;/span&gt; &lt;span class="n"&gt;clone&lt;/span&gt; &lt;span class="n"&gt;https&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="o"&gt;//&lt;/span&gt;&lt;span class="n"&gt;github&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;tbunnyman&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;pelican&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;chunk&lt;/span&gt;
+&lt;span class="n"&gt;sudo&lt;/span&gt; &lt;span class="n"&gt;pelican&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;themes&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nb"&gt;i&lt;/span&gt; &lt;span class="n"&gt;pelican&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;chunk&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
